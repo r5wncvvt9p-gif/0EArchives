@@ -1,0 +1,176 @@
+# -- Theme Options --
+# These options control how the theme functions and allow you to
+# customise the display of your website.
+#
+# Refer to the theme docs for more details about each of these parameters.
+# https://blowfish.page/docs/configuration/#theme-parameters
+
+colorScheme = "blowfish"
+defaultAppearance = "dark" # valid options: light or dark
+autoSwitchAppearance = false
+
+enableSearch = true
+enableCodeCopy = true
+
+replyByEmail = false
+
+# mainSections = ["section1", "section2"]
+# robots = ""
+
+disableImageOptimization = false
+disableImageOptimizationMD = false
+disableTextInHeader = false
+# backgroundImageWidth = 1200
+
+defaultBackgroundImage = "img/background.svg" # used as default for background images
+defaultFeaturedImage = "img/default_post.png" # used as default for featured images in all articles
+defaultSocialImage = "img/default_post.png" # used as default for social media sharing (Open Graph and Twitter)
+
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = true
+
+fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384", "sha256"
+
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v8.next.forgejo.org"
+
+[header]
+layout = "fixed-gradient" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+
+[footer]
+showMenu = false
+showCopyright = true
+showThemeAttribution = true
+showAppearanceSwitcher = false
+showScrollToTop = true
+
+[homepage]
+layout = "background" # valid options: page, profile, hero, card, background, custom
+#homepageImage = "IMAGE.jpg" # used in: hero, and card
+showRecent = false
+showRecentItems = 5
+showMoreLink = false
+showMoreLinkDest = "/posts/"
+cardView = true
+cardViewScreenWidth = false
+layoutBackgroundBlur = true # only used when layout equals background
+disableHeroImageFilter = false # only used when layout equals hero
+
+[article]
+showDate = true
+showViews = false
+showLikes = false
+showDateOnlyInArticle = false
+showDateUpdated = true
+showAuthor = true
+showAuthorBottom = true
+showHero = true
+heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
+showBreadcrumbs = true
+showDraftLabel = true
+showEdit = true
+editURL = "https://github.com/Gu-f/0EArchives/blob/main/content/"
+editAppendPath = true
+seriesOpened = true
+showHeadingAnchors = true
+showPagination = true
+invertPagination = false
+showReadingTime = true
+showTableOfContents = true
+showRelatedContent = true
+relatedContentLimit = 4
+showTaxonomies = true # use showTaxonomies OR showCategoryOnly, not both
+showCategoryOnly = false # use showTaxonomies OR showCategoryOnly, not both
+showAuthorsBadges = false
+showWordCount = true
+# sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram", "line"]
+showZenMode = true
+
+[list]
+showHero = true
+heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
+showBreadcrumbs = false
+showSummary = true
+showViews = false
+showLikes = false
+showTableOfContents = false
+showCards = false
+orderByWeight = false
+groupByYear = false
+cardView = true
+cardViewScreenWidth = false
+constrainItemsWidth = false
+
+[sitemap]
+excludedKinds = ["taxonomy", "term"]
+
+[taxonomy]
+showTermCount = true
+showHero = true
+heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = false
+cardView = true
+
+[term]
+showHero = true
+heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = true
+groupByYear = false
+cardView = true
+cardViewScreenWidth = false
+
+[firebase]
+# apiKey = "XXXXXX"
+# authDomain = "XXXXXX"
+# projectId = "XXXXXX"
+# storageBucket = "XXXXXX"
+# messagingSenderId = "XXXXXX"
+# appId = "XXXXXX"
+# measurementId = "XXXXXX"
+
+[fathomAnalytics]
+# site = "ABC12345"
+# domain = "llama.yoursite.com"
+
+[umamiAnalytics]
+# websiteid = "ABC12345"
+# domain = "llama.yoursite.com"
+# dataDomains = "yoursite.com,yoursite2.com"
+# scriptName = ""
+# enableTrackEvent = true
+
+[selineAnalytics]
+# token = "XXXXXX"
+# enableTrackEvent = true
+
+[buymeacoffee]
+# identifier = ""
+# globalWidget = true
+# globalWidgetMessage = "Hello"
+# globalWidgetColor = "#FFDD00"
+# globalWidgetPosition = "Right"
+
+[verification]
+# google = ""
+# bing = ""
+# pinterest = ""
+# yandex = ""
+# fediverse = ""
+
+[rssnext]
+# feedId = ""
+# userId = ""
+
+[advertisement]
+# adsense = ""

@@ -1,0 +1,83 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+name = 'Github'
+pre = "github"
+url = "https://github.com/Gu-f/0EArchives"
+weight = 9
+
+
+[[main]]
+name = "档案"
+pageRef = "posts"
+weight = 10
+
+
+[[main]]
+name = "分类"
+wdight = 20
+
+[[main]]
+name = "类别"
+parent = "分类"
+pageRef = "categories"
+weight = 21
+
+[[main]]
+name = "标签"
+parent = "分类"
+pageRef = "tags"
+weight = 22
+
+[[main]]
+name = "系列"
+parent = "分类"
+pageRef = "series"
+weight = 23
+
+[[main]]
+name = "作者"
+parent = "分类"
+pageRef = "authors"
+weight = 24
+
+
+[[main]]
+name = "文档"
+pageRef = "docs"
+weight = 600
+
+[[main]]
+name = "关于"
+pageRef = "about"
+weight = 700
+
+[[main]]
+name = "贡献者"
+pageRef = "contributor"
+weight = 800
+
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+[[footer]]
+name = "标签"
+pageRef = "tags"
+weight = 1
+
+[[footer]]
+name = "类别"
+pageRef = "categories"
+weight = 2
