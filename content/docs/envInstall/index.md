@@ -1,6 +1,6 @@
 +++
 date = '2025-07-09 12:20:25'
-title = '准备环境'
+title = '1.准备环境'
 description = ""
 categories = ['文档']
 showAuthor = false

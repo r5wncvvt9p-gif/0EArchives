@@ -1,6 +1,6 @@
 +++
 date = '2025-07-10 12:00:25'
-title = 'Git安装'
+title = '2.Git安装'
 description = ""
 categories = ['文档']
 showAuthor = false
