@@ -60,7 +60,8 @@ Windows：`d: && cd D:\workspace\`  d: 代表首先切换到D盘，cd为进入�
 如果命令输出`没有那个文件或目录`或`系统找不到指定的路径。`，这说明没有对应文件夹，你需要先创建一个。
 
 上方执行完之后，我们在将刚刚复制的内容，与`git clone`拼到一起，拼成如下命令：  
-`git clone https://github.com/Gu-f/0EArchives.git`  
+注意，你的命令地址应该是你的账户下的，也就是下面命令xxxxx位置应该显示你的用户名才是正确的。  
+`git clone https://github.com/xxxxx/0EArchives.git`  
 输入到命令行，然后回车即可开始clone  
 （！注：GitHub部分地区可能需要科学上网，不然没有网络，需要自行解决）
 
