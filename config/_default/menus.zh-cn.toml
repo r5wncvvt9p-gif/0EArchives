@@ -14,7 +14,14 @@
 name = 'Github'
 pre = "github"
 url = "https://github.com/Gu-f/0EArchives"
-weight = 9
+weight = 5
+
+
+[[main]]
+name = 'AI生图助力'
+pre = "image"
+url = "https://imageai.0e.pw/"
+weight = 7
 
 
 [[main]]
