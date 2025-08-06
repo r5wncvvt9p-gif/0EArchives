@@ -67,8 +67,38 @@ Windows：`d: && cd D:\workspace\`  d: 代表首先切换到D盘，cd为进入�
 
 克隆完成后即可在目录下找到0EArchives文件夹，里面则是0E档案的内容。
 
-至此，Fork并克隆0EArchives仓库完成。  
+至此，Fork并克隆0EArchives仓库完成。
 
+## 扩展(Clone方式二)
+
+（不熟悉命令行，推荐使用该GUI工具，注：GithubDesktop仅为git命令的可视化界面，**依然需要进行上一步的Git的安装**，不可跳过）  
+部分用户更善于使用带有界面的GUI工具，除了使用命令行`git clone https://github.com/xxxxx/0EArchives.git` 进行clone外，还可以使用GUI工具进行，如Github Desktop  
+如果你还没有安装，请先查看如下文档进行安装：  
+[Github Desktop安装教程](/docs/desktopinstall/)  
+安装完毕后，开始Clone我们Fork出来的仓库。  
+![Clone](clone.jpg)  
+在打开的页面中选择要克隆的我们的0EArchives仓库(注：如果没有显示请先点击右侧刷新按钮，如果刷新后还是没有显示，请检查该[Fork步骤](/docs/gitclone/#1fork)是否完成)  
+![CloneSelect](./cloneselect.jpg)  
+下方Path位置可以指定Clone的位置，如无需变动，保持默认即可。  
+选中要克隆的仓库后下方蓝色Clone按钮变为可点击，点击蓝色Clone按钮即可开始进行Clone  
+![Cloning](./cloning.jpg)
+
+注：常见错误  
+![Error1](./error1.jpg)  
+出现上图错误说明网络不通(检查你的科学上网是否全局开启)  
+解决方式:  
+1、将系统代理切换到你的科学上网，或相关科学上网工具使用系统代理模式  
+2、多次点击重试`Retry Clone`按钮，有一定几率成功。  
+![Error2](./error2.jpg)  
+出现上图错误，说明你选择的目录不是一个空的文件夹，需要删除该文件夹内容，或新建一个文件夹，将Clone的Path设置为新建的文件夹即可。  
+（通常情况下是由于出现了第一个错误，文件clone了一半网络异常失败了，导致文件夹内容存在clone了一半的内容，再次重试的时候，判定为文件夹不为空，这个时候删除该文件夹(文件夹名通常是0EArchives)，然后再点击重试Retry
+clone即可）
+
+Clone成功后出现如下图：  
+![CloneSuccess](./clonesuccess.jpg)  
+我们选择第一个(参与贡献内容)，然后点击Continue即可。
+
+至此Clone完成，你可以用VScode打开对应的目录，看到0E相关代码啦  
 
 
 

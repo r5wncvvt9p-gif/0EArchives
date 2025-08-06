@@ -46,10 +46,10 @@ weight = 6
    `authors`：该档案作者，请填写你的名称ID，如何创建一个名称ID详情见[成为贡献者](/docs/createauthor/)  
    `xxxxxxx具体内容`：是你要写作的具体位置，你可以任意发挥，支持Markdown语法和HTML语法
 
-   在进行填写tags和categories的时候，请优先查阅[现有的分类](https://0e.pw/categories/)和[现有的标签](https://0e.pw/tags/)，如果已经存在，请不要创建新的，而应该使用现有的。  
+   在进行填写tags和categories的时候，请优先查阅[现有的分类](/categories/)和[现有的标签](/tags/)，如果已经存在，请不要创建新的，而应该使用现有的。  
    以上为常规档案格式，更多设置见[文章头部参数]()
 
-   已经提前写好了一个[档案样例](https://0e.pw/posts/exatemples/)，在`content/posts/exatemples`目录下，供参考，不一定非要使用这种格式，内容部分可任意发挥。
+   已经提前写好了一个[档案样例](/posts/exatemples/)，在`content/posts/exatemples`目录下，供参考，不一定非要使用这种格式，内容部分可任意发挥。
 
 恭喜你完成本节内容！    
 
