@@ -8,9 +8,9 @@
 建议版本：hugo v0.147.9  
 [hugo](https://github.com/gohugoio/hugo/releases)
 
-### Dev
+### Themes
 
-Theme Ver: 2.87.0
+Theme Ver: 2.89.0
 
 #### 拉取主题子模块
 
@@ -25,8 +25,8 @@ Theme Ver: 2.87.0
 `cd themes/blowfish`  # 进入子模块文件夹  
 `git fetch --tags`  # 拉取Tag版本号  
 `git tag -l`  # 查看Tag版本号  
-`git checkout tags/v2.87.0`  # 切换到2.87.0版本  
-`git status`  # 确保处于分离状态，显示 HEAD detached at v2.87.0
+`git checkout tags/v2.89.0`  # 切换到2.89.0版本  
+`git status`  # 确保处于分离状态，显示 HEAD detached at v2.89.0
 
 ### License
 
