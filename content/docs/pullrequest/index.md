@@ -31,6 +31,9 @@ weight = 8
 选择好后，我们点击右侧绿色按钮Create pull request，开始发起合并请求：  
 ![CreatePR](./createpr.jpg)
 
+然后点击下方绿色按钮即可完成发起合并请求：  
+![PullRequestCreate](./pullrequestcreate.jpg)
+
 至此你已完成了你的内容贡献，耐心等待0E仓库管理员审核，通过后你将会在网站中看到你的内容，如果没有通过，请根据未通过原因，及时修改提交内容。
 
 基本教程到这里就结束了，祝生活愉快！    

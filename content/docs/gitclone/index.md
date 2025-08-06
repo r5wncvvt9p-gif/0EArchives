@@ -38,7 +38,9 @@ weight = 3
 刚创建的由于本来就是新的，所以不需要同步。  
 同步之后你的fork的仓库就跟主仓库内容一致了，然后你就可以继续基于你创建的这个fork进行提交新的内容啦。  
 （不需要每次提交新内容都进行一个新的fork呦，当你创建过一次fork后，没有删除的情况下，你可以使用Sync Fork进行拉齐内容）  
-![SyncFork](./syncfork.jpg)
+![SyncFork](./syncfork.jpg)  
+如果你Fork的不是最新的，则会提示你仓库落后了，然后进行如下步骤同步最新内容：  
+![NeedSync](./needsync.jpg)
 
 ## 2.Clone克隆项目
 
